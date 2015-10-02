@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title>Test</title>
+    <style>
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script>
+
+      $(document).ready(function() {
+        $("#url-source").submit(function(e) {
+          e.preventDefault();
+          // var urlInput = $("#url-input").val();
+          // console.log(urlInput);
+          // $.get("https://instagram.com/p/6TymPGEwYW/", function(data) {
+          //   console.log(data);
+          // });
+          $.ajax({
+            crossOrigin: true,
+            url: 'https://instagram.com/p/6TymPGEwYW/',
+            success: function(data) {
+                console.log(data);
+            }
+          });
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <form id="url-source">
+      <input type="text" placeholder="Instagram photo page URL" id="url-input" />
+      <input type="submit" value="Go">
+    </form>
+  </body>
+</html>

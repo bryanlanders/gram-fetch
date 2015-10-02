@@ -1,0 +1,27 @@
+{
+  "name": "instagram-image-fetcher",
+  "description": "Fetch your Instagram image or video with a Share URL.",
+  "author": "Bryan Landers",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "4.13.3",
+    "ejs": "2.3.3",
+    "body-parser": "^1.14.1",
+    "request": "latest",
+    "cheerio": "latest"
+  },
+  "engines": {
+    "node": "4.1.1"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "heroku",
+    "instagram"
+  ],
+  "license": "MIT"
+}

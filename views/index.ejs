@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Instagram Fetch</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <link rel="apple-touch-icon" href="images/instagram-fetch-icon.png">
+  <link rel="stylesheet" type="text/css" href="css/all.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="js/all.js"></script>
+</head>
+<body>
+  <form action="/" method="post" id="form">
+    <p class="error-message"><%if (typeof errorMessage != 'undefined') { %><%= errorMessage %><% } %></p>
+    <input type="text" name="photoPageURL" placeholder="paste instagram link..." <%if (typeof userValue != 'undefined') { %>value="<%= userValue %>"<% } %> autofocus />
+    <input type="submit" value="go" class="button" />
+  </form>
+</body>
+</html>
