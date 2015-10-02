@@ -88,7 +88,6 @@ form {
 
 input {
   border-radius: 0;
-  box-sizing: content-box;
   font-family: inherit;
   font-size: inherit;
   font-weight: inherit;
