@@ -1,6 +1,6 @@
 {
-  "name": "instagram-image-fetcher",
-  "description": "Fetch your Instagram image or video with a Share URL.",
+  "name": "gram-fetch",
+  "description": "A simple node/express JS app to fetch your Instagram image or video with a Share URL.",
   "author": "Bryan Landers",
   "version": "0.0.1",
   "main": "index.js",

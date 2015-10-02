@@ -1,7 +1,7 @@
 {
-  "name": "Instagram Fetch",
+  "name": "Gram Fetch",
   "description": "A simple node/express JS app to fetch your Instagram image or video with a Share URL.",
-  "repository": "https://github.com/bryanlanders/instgram-fetch",
+  "repository": "https://github.com/bryanlanders/gram-fetch",
   "logo": "http://bryanlanders.com/media/instagram-fetch-icon.png",
   "keywords": ["node", "express", "instagram", "heroku"]
 }
